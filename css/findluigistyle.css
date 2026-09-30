@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Super Mario 256";
+    src: url(../font/SuperMario256.ttf);
+}
+
+/* Find Luigi Main Style Sheet */
+
+html {
+    background: black;
+    background-image: url(../photo/luigipattern.png);
+    background-size: 4%;
+}
+
+
+
+body {
+    background: rgb(127, 223, 139);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+
+
+header {
+    background: #f8f8d8;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    background-color: rgb(44, 167, 71);
+    display: block;
+    font-size: 2em;
+    float: left;
+    text-align: center;
+    width: 16.667%;
+    line-height: 1.5em;
+}
+
+li a {
+    color: white;
+}
+
+
+h1 {
+    font-size: 4em;
+    font-family: Tahoma;
+    line-height: 2em;
+    text-align: center;
+}
+
+p {
+    margin: 0% 10%;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+p#start {
+    background-color: rgb(44, 167, 71);
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    border-radius: 20%;
+}
+
+p#start a {
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+    font-size: 3em;
+    font-family: "Super Mario 256";
+}
+
+p#start a:active {
+    color: black
+}
+
+
+
+footer {
+    background-color: rgb(44, 167, 71);
+    text-align: center;
+    line-height: 2em;
+    font-size: 1.1em;
+}
