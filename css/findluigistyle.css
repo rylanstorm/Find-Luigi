@@ -41,9 +41,12 @@ img {
     margin-right: auto;
 }
 
+img#dance {
+    width: 30%;
+}
+
 li {
     background-color: rgb(44, 167, 71);
-    display: block;
     font-size: 2em;
     float: left;
     text-align: center;
@@ -58,9 +61,10 @@ li a {
 
 h1 {
     font-size: 4em;
-    font-family: Tahoma;
+    font-family: Verdana;
     line-height: 2em;
     text-align: center;
+    font-weight: bold;
 }
 
 p {
@@ -68,8 +72,18 @@ p {
     margin-bottom: 20px;
     line-height: 1.5em;
     font-size: 1.5em;
-    font-family: Tahoma;
+    font-family: Verdana;
     text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 10, 104)
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(0, 10, 104)
 }
 
 p#start {
@@ -78,14 +92,16 @@ p#start {
     margin-right: auto;
     width: 23%;
     border-radius: 20%;
+    box-shadow: 0px 10px 20px rgba(0,0,0,.5);
 }
 
 p#start a {
     text-decoration: none;
-    color: black;
+    color: white;
     line-height: 3em;
-    font-size: 3em;
+    font-size: 2em;
     font-family: "Super Mario 256";
+    text-shadow: 0px 5px 20px rgba(0,0,0,.6);
 }
 
 p#start a:active {
@@ -96,6 +112,53 @@ p#start a:active {
 
 footer {
     background-color: rgb(44, 167, 71);
+    text-align: center;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+
+/* WEGA STYLE */
+
+html#wega {
+    background: black;
+    background-image: url(../photo/wegapattern.png);
+    background-size: 4%;
+}
+
+body#wega {
+    background: rgb(215, 127, 223);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+img#wega{
+    width: 40%;
+}
+
+p#wega {
+    background-color: rgb(147, 44, 167);
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    border-radius: 20%;
+}
+
+p#wega a {
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+    font-size: 2em;
+    font-family: "Super Mario 256";
+}
+
+p#wega a:active {
+    color: black
+}
+
+footer#wega {
+    background-color: rgb(147, 44, 167);
     text-align: center;
     line-height: 2em;
     font-size: 1.1em;

@@ -15,6 +15,7 @@ li, main, nav, ol, p, section, span, ul {
    font-size: 100%;
    margin: 0;
    padding: 0;
+   font-weight: normal;
    vertical-align: baseline;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
