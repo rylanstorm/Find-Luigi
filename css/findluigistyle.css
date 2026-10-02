@@ -5,7 +5,11 @@
     src: url(../font/SuperMario256.ttf);
 }
 
-/* Find Luigi Main Style Sheet */
+/*
+Find Luigi Main Style Sheet
+rylanstorm
+10/2/2026
+*/
 
 html {
     background: black;
@@ -45,6 +49,10 @@ img#dance {
     width: 30%;
 }
 
+img#luigi {
+    width: 18%;
+}
+
 li {
     background-color: rgb(44, 167, 71);
     font-size: 2em;
@@ -56,6 +64,7 @@ li {
 
 li a {
     color: white;
+    text-decoration: none;
 }
 
 
@@ -68,12 +77,19 @@ h1 {
 }
 
 p {
-    margin: 0% 10%;
+    margin: 0% 5%;
     margin-bottom: 20px;
     line-height: 1.5em;
     font-size: 1.5em;
     font-family: Verdana;
     text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px 0px;
+    font-family: "Times New Roman";
+    font-style: italic;
 }
 
 footer a {
@@ -90,7 +106,8 @@ p#start {
     background-color: rgb(44, 167, 71);
     margin-left: auto;
     margin-right: auto;
-    width: 23%;
+    padding: 50px 0px;
+    width: 25%;
     border-radius: 20%;
     box-shadow: 0px 10px 20px rgba(0,0,0,.5);
 }
@@ -105,7 +122,7 @@ p#start a {
 }
 
 p#start a:active {
-    color: black
+    color: white
 }
 
 
@@ -121,16 +138,11 @@ footer {
 /* WEGA STYLE */
 
 html#wega {
-    background: black;
     background-image: url(../photo/wegapattern.png);
-    background-size: 4%;
 }
 
 body#wega {
     background: rgb(215, 127, 223);
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
 }
 
 img#wega{
@@ -141,16 +153,19 @@ p#wega {
     background-color: rgb(147, 44, 167);
     margin-left: auto;
     margin-right: auto;
-    width: 23%;
+    padding: 50px 0px;
+    width: 25%;
     border-radius: 20%;
+    box-shadow: 0px 10px 20px rgba(0,0,0,.5);
 }
 
 p#wega a {
     text-decoration: none;
-    color: black;
+    color: white;
     line-height: 3em;
     font-size: 2em;
     font-family: "Super Mario 256";
+    text-shadow: 0px 5px 20px rgba(0,0,0,.6);
 }
 
 p#wega a:active {
@@ -159,7 +174,4 @@ p#wega a:active {
 
 footer#wega {
     background-color: rgb(147, 44, 167);
-    text-align: center;
-    line-height: 2em;
-    font-size: 1.1em;
 }
